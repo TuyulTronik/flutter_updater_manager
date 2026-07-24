@@ -16,7 +16,6 @@
 - [Contoh Lengkap](#-contoh-lengkap)
 - [API Reference](#-api-reference)
 - [Custom Dialog](#-custom-dialog)
-- [Roadmap](#-roadmap)
 - [Lisensi](#-lisensi)
 
 ---
@@ -92,7 +91,6 @@ git push origin v1.0.1-patch1
 # Buat release notes di GitHub (cukup tag, tidak perlu upload APK)
 ```
 > **Catatan**: Tag patch harus memiliki format **{version}-patch{patchNumber}** (contoh: v1.0.1-patch1)
-
 ---
 
 ## 🚀 Penggunaan Dasar
