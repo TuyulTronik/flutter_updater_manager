@@ -60,7 +60,9 @@ Kemudian jalankan:
 flutter pub get
 ```
 ---
+
 ## ⚙️ Konfigurasi
+
 1. Shorebird Setup
 Plugin ini membutuhkan Shorebird untuk Code Push. Ikuti langkah-langkah berikut:
 ```bash
@@ -89,7 +91,9 @@ git push origin v1.0.1-patch1
 > **Catatan**: Tag patch harus memiliki format **{version}-patch{patchNumber}** (contoh: v1.0.1-patch1)
 
 ---
+
 ## 🚀 Penggunaan Dasar
+
 ### Inisialisasi
 
 ```dart
@@ -125,6 +129,7 @@ if (result.hasUpdate) {
   }
 }
 ```
+
 ### Subscribe Progress
 ```dart
 manager.progressStream.listen((progress) {
@@ -144,7 +149,9 @@ final manager = UpdateManager(
 );
 ```
 ---
+
 ## 💡 Contoh Lengkap
+
 ### Dengan Stream & State Management
 
 ```dart
@@ -256,7 +263,9 @@ class _HomeScreenState extends State<HomeScreen> {
 }
 ```
 ---
+
 ## 📖 API Reference
+
 ### UpdateManager
 Class utama untuk mengelola update.
 
@@ -363,6 +372,7 @@ enum UpdateManagerStatus {
 ---
 
 ## 🎨 Custom Dialog
+
 Anda bisa mengganti default dialog dengan custom dialog sesuai tema aplikasi.
 
 ### Cara 1: Menggunakan dialogBuilder
@@ -430,9 +440,10 @@ class CustomChangelogDialog extends StatelessWidget {
 }
 ```
 ---
-## 📄 Lisensi
-Copyright © 2024 TuyulTronik
 
+## 📄 Lisensi
+
+Copyright © 2024 TuyulTronik
 Dilisensikan di bawah MIT License.
 
 ---
