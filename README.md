@@ -65,6 +65,7 @@ flutter pub get
 
 1. Shorebird Setup
 Plugin ini membutuhkan Shorebird untuk Code Push. Ikuti langkah-langkah berikut:
+
 ```bash
 # 1. Install shorebird_cli
 dart pub global activate shorebird_cli
@@ -75,6 +76,7 @@ shorebird init
 # 3. Buat file shorebird.yaml (auto-generated)
 # auto_update: false  # Untuk manual mode
 ```
+
 2. GitHub Release Setup
    - Buat Release di repository GitHub Anda
    - Upload file APK sebagai asset
@@ -82,6 +84,7 @@ shorebird init
 
 3. Patch Changelog Setup
 Untuk menampilkan changelog pada patch, buat Git Tag untuk setiap patch:
+
 ```bash
 git tag v1.0.1-patch1
 git push origin v1.0.1-patch1
@@ -444,6 +447,7 @@ class CustomChangelogDialog extends StatelessWidget {
 ## 📄 Lisensi
 
 Copyright © 2024 TuyulTronik
+
 Dilisensikan di bawah MIT License.
 
 ---
