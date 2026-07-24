@@ -55,7 +55,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
-## [0.0.1] - 2024-07-24
+## [0.0.1] - 2026-07-24
 
 ### Added
 - Initial release
@@ -113,5 +113,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 | Version | Date | Status |
 |---------|------|--------|
-| 0.0.1 | 2024-07-24 | Development |
+| 0.0.1 | 2026-07-24 | Development |
 | Unreleased | - | In Progress |

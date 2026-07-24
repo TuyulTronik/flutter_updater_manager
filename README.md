@@ -444,7 +444,7 @@ class CustomChangelogDialog extends StatelessWidget {
 
 ## 📄 Lisensi
 
-Copyright © 2024 TuyulTronik
+Copyright © 2026 TuyulTronik
 
 Dilisensikan di bawah MIT License.
 
