@@ -1,7 +1,14 @@
 # flutter_updater_manager
 
-[![pub package](https://img.shields.io/pub/v/flutter_updater_manager.svg)](https://pub.dev/packages/flutter_updater_manager)
+<p align="center">
+
+![Flutter](https://img.shields.io/badge/Flutter-3.x-blue)
+![Dart](https://img.shields.io/badge/Dart-3.x-blue)
+![Android](https://img.shields.io/badge/Android-Only-green)
+![Shorebirds](https://img.shields.io/badge/Patch-brightgreen)
+![GitHub](https://img.shields.io/badge/github-APK-release-blue?logo=github)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+</p>
 
 **Flutter plugin untuk mengelola update aplikasi secara terpadu**, menggabungkan **Native Update (APK)** via GitHub Releases dan **Code Push** via Shorebird, dengan dukungan **changelog** dari GitHub Tags.
 
