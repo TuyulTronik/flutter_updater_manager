@@ -2,9 +2,9 @@
 
 <p align="center">
 
-![Flutter](https://img.shields.io/badge/Flutter-3.x-blue)
-![Dart](https://img.shields.io/badge/Dart-3.x-blue)
-![Android](https://img.shields.io/badge/Android-Only-green)
+![Flutter](https://img.shields.io/badge/Flutter-3.x-blue?logo=flutter)
+![Dart](https://img.shields.io/badge/Dart-3.x-blue?logo=dart)
+![Android](https://img.shields.io/badge/Android-Only-green?logo=android)
 ![Shorebirds](https://img.shields.io/badge/Shorebirds-Patch-brightgreen)
 ![GitHub](https://img.shields.io/badge/github-Apk-blue?logo=github)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
