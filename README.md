@@ -290,7 +290,7 @@ UpdateManager({
 | cancel() | void |	Batalkan proses update |
 | dispose() | void | Dispose resources |
 #### Properties
-| | Property | Type | Deskripsi |
+| Property | Type | Deskripsi |
 |--------|--------|-----------|
 | status | UpdateManagerStatus | Status update saat ini |
 | progressStream | Stream<UpdateProgress> | Stream progress update |
