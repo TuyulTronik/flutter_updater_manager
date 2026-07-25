@@ -98,6 +98,28 @@ git push origin v1.0.1-patch1
 # Buat release notes di GitHub (cukup tag, tidak perlu upload APK)
 ```
 > **Catatan**: Tag patch harus memiliki format **{version}-patch{patchNumber}** (contoh: v1.0.1-patch1)
+
+4. Android Permissions (Wajib)
+
+Tambahkan permission berikut ke `android/app/src/main/AndroidManifest.xml`:
+
+```xml
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yourcompany.yourapp">
+
+    <!-- ✅ Required for APK download -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- ✅ Required for APK installation (Android 8+) -->
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+
+    <!-- ✅ Required for reading APK file -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application>
+        ...
+    </application>
+</manifest>
 ---
 
 ## 🚀 Penggunaan Dasar
