@@ -120,6 +120,8 @@ Tambahkan permission berikut ke `android/app/src/main/AndroidManifest.xml`:
         ...
     </application>
 </manifest>
+```
+
 ---
 
 ## 🚀 Penggunaan Dasar
