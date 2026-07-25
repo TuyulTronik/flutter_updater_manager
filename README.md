@@ -18,7 +18,7 @@
 
 - [Fitur](#-fitur)
 - [Instalasi](#-instalasi)
-- [Konfigurasi](#-konfigurasi)
+- [Konfigurasi](#konfigurasi)
 - [Penggunaan Dasar](#-penggunaan-dasar)
 - [Contoh Lengkap](#-contoh-lengkap)
 - [API Reference](#-api-reference)
@@ -121,6 +121,7 @@ Tambahkan permission berikut ke `android/app/src/main/AndroidManifest.xml`:
     </application>
 </manifest>
 ```
+> **Catatan**: Permission **REQUEST_INSTALL_PACKAGES** adalah dangerous permission. Pada Android 8+ (API 26+), aplikasi akan meminta user untuk mengizinkan instalasi dari sumber tidak dikenal. Plugin akan secara otomatis menangani request permission ini.
 
 ---
 
