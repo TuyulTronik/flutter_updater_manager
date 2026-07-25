@@ -18,7 +18,7 @@
 
 - [Fitur](#-fitur)
 - [Instalasi](#-instalasi)
-- [Konfigurasi](#konfigurasi)
+- [Konfigurasi](#%EF%B8%8F-konfigurasi)
 - [Penggunaan Dasar](#-penggunaan-dasar)
 - [Contoh Lengkap](#-contoh-lengkap)
 - [API Reference](#-api-reference)
